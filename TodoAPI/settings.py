@@ -112,7 +112,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if DATABASE_URL:
     DEBUG = False
     db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)
-    DATABASES["DEFAULT"].update(db_from_env)
+    DATABASES["default"].update(db_from_env)
     
 if not DEBUG:
     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")

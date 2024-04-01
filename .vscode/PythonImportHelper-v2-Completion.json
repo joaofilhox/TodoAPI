@@ -628,7 +628,7 @@
         "kind": 5,
         "importPath": "TodoAPI.settings",
         "description": "TodoAPI.settings",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nif DATABASE_URL:\n    DEBUG = False\n    db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)\n    DATABASES[\"DEFAULT\"].update(db_from_env)\nif not DEBUG:\n    STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n    STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nif DATABASE_URL:\n    DEBUG = False\n    db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)\n    DATABASES[\"default\"].update(db_from_env)\nif not DEBUG:\n    STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n    STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators",
         "detail": "TodoAPI.settings",
         "documentation": {}
     },
