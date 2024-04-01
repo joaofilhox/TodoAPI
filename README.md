@@ -6,6 +6,8 @@ Este é um projeto de teste para demonstrar uma API de gerenciamento de tarefas.
 A documentação da API pode ser encontrada aqui [Documentação da API](https://todoapi-1d99.onrender.com/api/docs/swagger/)
 . Esta documentação fornece informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários e as respostas esperadas.
 
+# Rota de Importação de Tarefas
+A rota https://todoapi-1d99.onrender.com/api/tasks/import/ permite a importação de tarefas de fontes externas, como arquivo CSV.
 
 # Arquivo CSV
 Para facilitar o teste e demonstração da importação de tarefas, um arquivo CSV de exemplo. Você pode encontrar o arquivo aqui.
@@ -21,5 +23,4 @@ Exemplo de Uso
 Consulte a documentação da API para entender os endpoints disponíveis e seus parâmetros.
 Utilize o Insomnia para testar as requisições à API.
 Importe o arquivo CSV de exemplo para demonstrar a funcionalidade de importação de tarefas.
-Contato
 Se você tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato conosco.
