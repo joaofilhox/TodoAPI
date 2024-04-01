@@ -24,3 +24,6 @@ Consulte a documentação da API para entender os endpoints disponíveis e seus 
 Utilize o Insomnia para testar as requisições à API.
 Importe o arquivo CSV de exemplo para demonstrar a funcionalidade de importação de tarefas.
 Se você tiver alguma dúvida ou precisar de assistência adicional, não hesite em entrar em contato conosco.
+
+# Possíveis Atrasos na API
+Por favor, esteja ciente de que, devido à hospedagem gratuita na Render, a API pode apresentar atrasos.
