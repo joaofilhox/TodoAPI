@@ -25,6 +25,15 @@
         "documentation": {}
     },
     {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -38,15 +47,6 @@
         "description": "django.core.management.utils",
         "isExtraImport": true,
         "detail": "django.core.management.utils",
-        "documentation": {}
-    },
-    {
-        "label": "dj_database_url",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "dj_database_url",
-        "description": "dj_database_url",
-        "detail": "dj_database_url",
         "documentation": {}
     },
     {
@@ -628,7 +628,7 @@
         "kind": 5,
         "importPath": "TodoAPI.settings",
         "description": "TodoAPI.settings",
-        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nif DATABASE_URL:\n    DEBUG = False\n    db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)\n    DATABASES[\"default\"].update(db_from_env)\nif not DEBUG:\n    STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n    STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nif DATABASE_URL:\n    DEBUG = False\n    db_from_env = dj_database_url.config(\n        default=DATABASE_URL, conn_max_age=500, ssl_require=True\n    )\n    DATABASES[\"default\"].update(db_from_env)\nif not DEBUG:\n    STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n    STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"",
         "detail": "TodoAPI.settings",
         "documentation": {}
     },

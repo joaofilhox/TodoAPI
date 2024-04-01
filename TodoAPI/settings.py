@@ -12,9 +12,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 from dotenv import load_dotenv
 from django.core.management.utils import get_random_secret_key
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 load_dotenv()
@@ -111,7 +111,9 @@ DATABASES = {
 DATABASE_URL = os.getenv("DATABASE_URL")
 if DATABASE_URL:
     DEBUG = False
-    db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)
+    db_from_env = dj_database_url.config(
+        default=DATABASE_URL, conn_max_age=500, ssl_require=True
+    )
     DATABASES["default"].update(db_from_env)
     
 if not DEBUG:
