@@ -1,0 +1,914 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "get_random_secret_key",
+        "importPath": "django.core.management.utils",
+        "description": "django.core.management.utils",
+        "isExtraImport": true,
+        "detail": "django.core.management.utils",
+        "documentation": {}
+    },
+    {
+        "label": "dj_database_url",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dj_database_url",
+        "description": "dj_database_url",
+        "detail": "dj_database_url",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SpectacularAPIView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "SpectacularSwaggerView",
+        "importPath": "drf_spectacular.views",
+        "description": "drf_spectacular.views",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenRefreshView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairView",
+        "importPath": "rest_framework_simplejwt.views",
+        "description": "rest_framework_simplejwt.views",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "TokenObtainPairSerializer",
+        "importPath": "rest_framework_simplejwt.serializers",
+        "description": "rest_framework_simplejwt.serializers",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extend_schema",
+        "importPath": "drf_spectacular.utils",
+        "description": "drf_spectacular.utils",
+        "isExtraImport": true,
+        "detail": "drf_spectacular.utils",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "rest_framework.request",
+        "description": "rest_framework.request",
+        "isExtraImport": true,
+        "detail": "rest_framework.request",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "importPath": "rest_framework_simplejwt.authentication",
+        "description": "rest_framework_simplejwt.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "MultiPartParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "FormParser",
+        "importPath": "rest_framework.parsers",
+        "description": "rest_framework.parsers",
+        "isExtraImport": true,
+        "detail": "rest_framework.parsers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "TodoAPI.asgi",
+        "description": "TodoAPI.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "TodoAPI.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv(\"SECRET_KEY\", get_random_secret_key())\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nRENDER_EXTERNAL_HOSTNAME = os.getenv(\"RENDER_EXTERNAL_HOSTNAME\")\nif RENDER_EXTERNAL_HOSTNAME:",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", get_random_secret_key())\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nRENDER_EXTERNAL_HOSTNAME = os.getenv(\"RENDER_EXTERNAL_HOSTNAME\")\nif RENDER_EXTERNAL_HOSTNAME:\n    ALLOWED_HOSTS += [RENDER_EXTERNAL_HOSTNAME, \"0.0.0.0\"]  \n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nRENDER_EXTERNAL_HOSTNAME = os.getenv(\"RENDER_EXTERNAL_HOSTNAME\")\nif RENDER_EXTERNAL_HOSTNAME:\n    ALLOWED_HOSTS += [RENDER_EXTERNAL_HOSTNAME, \"0.0.0.0\"]  \n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\nRENDER_EXTERNAL_HOSTNAME = os.getenv(\"RENDER_EXTERNAL_HOSTNAME\")\nif RENDER_EXTERNAL_HOSTNAME:\n    ALLOWED_HOSTS += [RENDER_EXTERNAL_HOSTNAME, \"0.0.0.0\"]  \n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RENDER_EXTERNAL_HOSTNAME",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "RENDER_EXTERNAL_HOSTNAME = os.getenv(\"RENDER_EXTERNAL_HOSTNAME\")\nif RENDER_EXTERNAL_HOSTNAME:\n    ALLOWED_HOSTS += [RENDER_EXTERNAL_HOSTNAME, \"0.0.0.0\"]  \n# Application definition\nDJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DJANGO_APPS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "DJANGO_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nTHIRD_PARTY_APPS = [\n    \"rest_framework\",",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "THIRD_PARTY_APPS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "THIRD_PARTY_APPS = [\n    \"rest_framework\",\n    \"drf_spectacular\",\n]\nMY_APPS = [\n    \"accounts\",\n    \"tasks\",\n]\nINSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MY_APPS\nMIDDLEWARE = [",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MY_APPS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "MY_APPS = [\n    \"accounts\",\n    \"tasks\",\n]\nINSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MY_APPS\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + MY_APPS\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "ROOT_URLCONF = 'TodoAPI.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'TodoAPI.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'USER': os.getenv(\"POSTGRES_USER\"),\n        'PASSWORD': os.getenv(\"POSTGRES_PASSWORD\"),\n        'NAME': os.getenv(\"POSTGRES_DBNAME\"),\n        'HOST': os.getenv(\"POSTGRES_HOST\"),",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'USER': os.getenv(\"POSTGRES_USER\"),\n        'PASSWORD': os.getenv(\"POSTGRES_PASSWORD\"),\n        'NAME': os.getenv(\"POSTGRES_DBNAME\"),\n        'HOST': os.getenv(\"POSTGRES_HOST\"),\n        'PORT': os.getenv(\"POSTGRES_PORT\"),\n    }\n}",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "DATABASE_URL = os.getenv(\"DATABASE_URL\")\nif DATABASE_URL:\n    DEBUG = False\n    db_from_env = dj_database_url.config(default=DATABASE_URL, conn_max_age=500, ssl_require=True)\n    DATABASES[\"DEFAULT\"].update(db_from_env)\nif not DEBUG:\n    STATIC_ROOT = os.path.join(BASE_DIR, \"staticfiles\")\n    STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = \"accounts.Account\"",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  # Adicione esta linha para aceitar upload de arquivos",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  # Adicione esta linha para aceitar upload de arquivos\n    ]\n}",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SPECTACULAR_SETTINGS",
+        "kind": 5,
+        "importPath": "TodoAPI.settings",
+        "description": "TodoAPI.settings",
+        "peekOfCode": "SPECTACULAR_SETTINGS = {\n    \"TITLE\": \"Lista de tarefas\",\n    \"DESCRIPTION\": \"API para teste da Argo\",\n    \"VERSION\": \"1.0.0\",\n}",
+        "detail": "TodoAPI.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "TodoAPI.urls",
+        "description": "TodoAPI.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('accounts.urls')),  # URLs relacionadas a accounts\n    path('api/', include('tasks.urls')),     # URLs relacionadas a tasks\n    path('api-auth/', include('rest_framework.urls')),  # URLs para autenticação do Django REST Framework    \n    path('api/schema/', SpectacularAPIView.as_view(), name=\"schema\"), # URLs para a documentação Swagger\n    path('api/docs/swagger/', SpectacularSwaggerView.as_view()),\n]",
+        "detail": "TodoAPI.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "TodoAPI.wsgi",
+        "description": "TodoAPI.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "TodoAPI.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "accounts.migrations.0001_initial",
+        "description": "accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "accounts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "class Account(AbstractUser):\n    ...",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "AccountSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class AccountSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Account\n        fields = [\"id\", \"username\", \"password\"]\n        extra_kwargs = {\"password\": {\"write_only\": True}}\n    def create(self, validated_data):\n        return Account.objects.create_user(**validated_data)    \nclass LoginSerializer(serializers.Serializer):\n        username = serializers.CharField(max_length=150)\n        password = serializers.CharField(max_length=128)",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSerializer",
+        "kind": 6,
+        "importPath": "accounts.serializers",
+        "description": "accounts.serializers",
+        "peekOfCode": "class LoginSerializer(serializers.Serializer):\n        username = serializers.CharField(max_length=150)\n        password = serializers.CharField(max_length=128)",
+        "detail": "accounts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"accounts/\", views.AccountView.as_view()),\n    path(\"login/\", TokenObtainPairView.as_view()),\n    path(\"login/refresh/\", TokenRefreshView.as_view()),\n]",
+        "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class LoginView(TokenObtainPairView):\n    ...\nclass SecondLoginView(APIView):\n    @extend_schema(\n        request=TokenObtainPairSerializer,\n        responses={200: TokenObtainPairSerializer()},\n        summary=\"Second login\",\n        description=\"Performs a second login to obtain JWT tokens.\"\n    )\n    def post(self, request: Request) -> Response:",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "SecondLoginView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class SecondLoginView(APIView):\n    @extend_schema(\n        request=TokenObtainPairSerializer,\n        responses={200: TokenObtainPairSerializer()},\n        summary=\"Second login\",\n        description=\"Performs a second login to obtain JWT tokens.\"\n    )\n    def post(self, request: Request) -> Response:\n        serializer = TokenObtainPairSerializer(data=request.data)\n        serializer.is_valid(raise_exception=True)",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "FirstLoginView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class FirstLoginView(APIView):\n    @extend_schema(\n        request=LoginSerializer,\n        responses={200: TokenObtainPairSerializer()},\n        summary=\"First login\",\n        description=\"Performs a first login to obtain JWT tokens.\"\n    )\n    def post(self, request: Request) -> Response:\n        serializer = LoginSerializer(data=request.data)\n        serializer.is_valid(raise_exception=True)",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "AccountView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class AccountView(APIView):\n    @extend_schema(\n        responses={200: AccountSerializer(many=True)},\n        summary=\"List accounts\",\n        description=\"Returns a list of all accounts.\"\n    )\n    def get(self, request: Request) -> Response:\n        accounts = Account.objects.all()\n        serializer = AccountSerializer(accounts, many=True)\n        return Response(serializer.data)",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tasks.migrations.0001_initial",
+        "description": "tasks.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Task',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "tasks.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "TasksConfig",
+        "kind": 6,
+        "importPath": "tasks.apps",
+        "description": "tasks.apps",
+        "peekOfCode": "class TasksConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'tasks'",
+        "detail": "tasks.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "tasks.models",
+        "description": "tasks.models",
+        "peekOfCode": "class Task(models.Model):\n    STATUS_CHOICES = (\n        ('pendente', 'Pendente'),\n        ('concluido', 'Concluído'),\n    )\n    title = models.CharField(max_length=100)\n    description = models.TextField()\n    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pendente')\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)",
+        "detail": "tasks.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaskSerializer",
+        "kind": 6,
+        "importPath": "tasks.serializers",
+        "description": "tasks.serializers",
+        "peekOfCode": "class TaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Task\n        fields = ['id', 'title', 'description', 'status', 'created_at', 'updated_at', 'owner']\n        read_only_fields = ['created_at', 'updated_at', 'owner']  # Certifique-se de incluir 'owner' em read_only_fields também",
+        "detail": "tasks.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "tasks.urls",
+        "description": "tasks.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"tasks/\", views.TaskView.as_view()),  # Listar e Criar\n    path('tasks/import/', views.ImportTasksView.as_view(),),\n    path(\"tasks/<int:pk>/\", views.TaskUpdateDeleteView.as_view()),  # Atualizar e Excluir\n]",
+        "detail": "tasks.urls",
+        "documentation": {}
+    },
+    {
+        "label": "TaskView",
+        "kind": 6,
+        "importPath": "tasks.views",
+        "description": "tasks.views",
+        "peekOfCode": "class TaskView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    @extend_schema(\n        responses={200: TaskSerializer(many=True)},\n        summary=\"List tasks\",\n        description=\"Returns a list of all tasks.\"\n    )\n    def get(self, request: Request) -> Response:\n        tasks = Task.objects.all()",
+        "detail": "tasks.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskUpdateDeleteView",
+        "kind": 6,
+        "importPath": "tasks.views",
+        "description": "tasks.views",
+        "peekOfCode": "class TaskUpdateDeleteView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    @extend_schema(\n        request=TaskSerializer,\n        responses={200: TaskSerializer()},\n        summary=\"Update task\",\n        description=\"Updates an existing task.\"\n    )\n    def put(self, request: Request, pk: int) -> Response:",
+        "detail": "tasks.views",
+        "documentation": {}
+    },
+    {
+        "label": "ImportTasksView",
+        "kind": 6,
+        "importPath": "tasks.views",
+        "description": "tasks.views",
+        "peekOfCode": "class ImportTasksView(APIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsAuthenticated]\n    parser_classes = [MultiPartParser, FormParser]\n    @extend_schema(\n        request={\"type\": \"file\"},\n        responses={201: \"Tasks imported successfully\", 400: \"Bad request\"},\n        summary=\"Import tasks\",\n        description=\"Imports tasks from a CSV or Excel file. Upload a file with fields 'Title', 'Description', and 'Status'.\"\n    )",
+        "detail": "tasks.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TodoAPI.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
