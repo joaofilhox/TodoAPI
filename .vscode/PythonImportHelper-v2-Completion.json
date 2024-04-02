@@ -424,14 +424,6 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
-        "importPath": "django.utils",
-        "description": "django.utils",
-        "isExtraImport": true,
-        "detail": "django.utils",
-        "documentation": {}
-    },
-    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
@@ -700,7 +692,7 @@
         "kind": 5,
         "importPath": "TodoAPI.settings",
         "description": "TodoAPI.settings",
-        "peekOfCode": "AUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  # Adicione esta linha para aceitar upload de arquivos",
+        "peekOfCode": "AUTH_USER_MODEL = \"accounts.Account\"\nfrom datetime import timedelta\nREST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  ",
         "detail": "TodoAPI.settings",
         "documentation": {}
     },
@@ -709,7 +701,7 @@
         "kind": 5,
         "importPath": "TodoAPI.settings",
         "description": "TodoAPI.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  # Adicione esta linha para aceitar upload de arquivos\n    ]\n}",
+        "peekOfCode": "REST_FRAMEWORK = {\n    \"ACCESS_TOKEN_LIFETIME\": timedelta(hours=1),\n    \"DEFAULT_SCHEMA_CLASS\": \"drf_spectacular.openapi.AutoSchema\",\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n        'rest_framework.parsers.FileUploadParser',  \n    ]\n}",
         "detail": "TodoAPI.settings",
         "documentation": {}
     },
@@ -727,7 +719,7 @@
         "kind": 5,
         "importPath": "TodoAPI.urls",
         "description": "TodoAPI.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('accounts.urls')),  # URLs relacionadas a accounts\n    path('api/', include('tasks.urls')),     # URLs relacionadas a tasks\n    path('api-auth/', include('rest_framework.urls')),  # URLs para autenticação do Django REST Framework    \n    path('api/schema/', SpectacularAPIView.as_view(), name=\"schema\"), # URLs para a documentação Swagger\n    path('api/docs/swagger/', SpectacularSwaggerView.as_view()),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('accounts.urls')), \n    path('api/', include('tasks.urls')),    \n    path('api-auth/', include('rest_framework.urls')),  \n    path('api/schema/', SpectacularAPIView.as_view(), name=\"schema\"), \n    path('api/docs/swagger/', SpectacularSwaggerView.as_view()),\n]",
         "detail": "TodoAPI.urls",
         "documentation": {}
     },
@@ -862,7 +854,7 @@
         "kind": 6,
         "importPath": "tasks.serializers",
         "description": "tasks.serializers",
-        "peekOfCode": "class TaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Task\n        fields = ['id', 'title', 'description', 'status', 'created_at', 'updated_at', 'owner']\n        read_only_fields = ['created_at', 'updated_at', 'owner']  # Certifique-se de incluir 'owner' em read_only_fields também",
+        "peekOfCode": "class TaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Task\n        fields = ['id', 'title', 'description', 'status', 'created_at', 'updated_at', 'owner']\n        read_only_fields = ['created_at', 'updated_at', 'owner']",
         "detail": "tasks.serializers",
         "documentation": {}
     },
@@ -871,7 +863,7 @@
         "kind": 5,
         "importPath": "tasks.urls",
         "description": "tasks.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"tasks/\", views.TaskView.as_view()),  # Listar e Criar\n    path('tasks/import/', views.ImportTasksView.as_view(),),\n    path(\"tasks/<int:pk>/\", views.TaskUpdateDeleteView.as_view()),  # Atualizar e Excluir\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"tasks/\", views.TaskView.as_view()),  \n    path('tasks/import/', views.ImportTasksView.as_view(),),\n    path(\"tasks/<int:pk>/\", views.TaskUpdateDeleteView.as_view()),  \n]",
         "detail": "tasks.urls",
         "documentation": {}
     },

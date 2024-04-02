@@ -172,7 +172,7 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.JSONParser',
         'rest_framework.parsers.FormParser',
         'rest_framework.parsers.MultiPartParser',
-        'rest_framework.parsers.FileUploadParser',  # Adicione esta linha para aceitar upload de arquivos
+        'rest_framework.parsers.FileUploadParser',  
     ]
 }
 

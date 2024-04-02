@@ -7,10 +7,10 @@ from drf_spectacular.views import (
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('accounts.urls')),  # URLs relacionadas a accounts
-    path('api/', include('tasks.urls')),     # URLs relacionadas a tasks
-    path('api-auth/', include('rest_framework.urls')),  # URLs para autenticação do Django REST Framework    
-    path('api/schema/', SpectacularAPIView.as_view(), name="schema"), # URLs para a documentação Swagger
+    path('api/', include('accounts.urls')), 
+    path('api/', include('tasks.urls')),    
+    path('api-auth/', include('rest_framework.urls')),  
+    path('api/schema/', SpectacularAPIView.as_view(), name="schema"), 
     path('api/docs/swagger/', SpectacularSwaggerView.as_view()),
 
 ]
