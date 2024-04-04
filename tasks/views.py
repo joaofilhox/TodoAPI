@@ -78,6 +78,19 @@ class TaskUpdateDeleteView(APIView):
         except ValidationError as e:
             return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
+    @extend_schema(
+        responses={200: TaskSerializer(), 404: "Task not found"},
+        summary="Get task",
+        description="Retrieves an existing task by ID."
+    )
+    def get(self, request: Request, pk: int) -> Response:
+        try:
+            task = Task.objects.get(pk=pk)
+            serializer = TaskSerializer(task)
+            return Response(serializer.data)
+        except Task.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)    
+        
 class ImportTasksView(APIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticated]

@@ -17,7 +17,4 @@ class Task(models.Model):
         related_name="tasks",
         null=True,
     )
-
-    def __str__(self):
-        return self.title
-
+    
