@@ -245,6 +245,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "serializers",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -298,6 +306,14 @@
         "description": "rest_framework_simplejwt.views",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.views",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -775,7 +791,7 @@
         "kind": 6,
         "importPath": "accounts.serializers",
         "description": "accounts.serializers",
-        "peekOfCode": "class AccountSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Account\n        fields = [\"id\", \"username\", \"password\", \"email\"]\n        extra_kwargs = {\"password\": {\"write_only\": True}}\n    def create(self, validated_data: dict):\n        return Account.objects.create_user(**validated_data)    \nclass LoginSerializer(serializers.Serializer):\n        username = serializers.CharField(max_length=150)\n        password = serializers.CharField(max_length=128)",
+        "peekOfCode": "class AccountSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Account\n        fields = [\"id\", \"username\", \"password\", \"email\"]\n        read_only_fields = [\"id\"]\n        extra_kwargs = {\"password\": {\"write_only\": True}}\n    def create(self, validated_data: dict):\n        return Account.objects.create_user(**validated_data)    \nclass LoginSerializer(serializers.Serializer):\n        username = serializers.CharField(max_length=150)",
         "detail": "accounts.serializers",
         "documentation": {}
     },
@@ -793,7 +809,7 @@
         "kind": 5,
         "importPath": "accounts.urls",
         "description": "accounts.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"accounts/\", views.AccountView.as_view()),\n    path(\"login/\", TokenObtainPairView.as_view()),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"accounts/\", views.AccountView.as_view()),\n    path(\"accounts/<int:pk>/\", views.AccountDetailView.as_view()),\n    path(\"login/\", TokenObtainPairView.as_view()),\n]",
         "detail": "accounts.urls",
         "documentation": {}
     },
@@ -829,7 +845,16 @@
         "kind": 6,
         "importPath": "accounts.views",
         "description": "accounts.views",
-        "peekOfCode": "class AccountView(APIView):\n    @extend_schema(\n        responses={200: AccountSerializer(many=True)},\n        summary=\"List accounts\",\n        description=\"Returns a list of all accounts.\"\n    )\n    def get(self, request: Request) -> Response:\n        accounts = Account.objects.all()\n        serializer = AccountSerializer(accounts, many=True)\n        return Response(serializer.data)",
+        "peekOfCode": "class AccountView(APIView):\n    @extend_schema(\n        responses={200: AccountSerializer(many=True)},\n        summary=\"List accounts\",\n        description=\"Returns a list of all accounts.\"\n    )\n    def get(self, request: Request, pk=None) -> Response:\n        if pk is not None:\n            account = self.get_by_id(pk)\n            serializer = AccountSerializer(account)",
+        "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "AccountDetailView",
+        "kind": 6,
+        "importPath": "accounts.views",
+        "description": "accounts.views",
+        "peekOfCode": "class AccountDetailView(APIView):\n    @extend_schema(\n        responses={200: AccountSerializer()},\n        summary=\"Get account by ID\",\n        description=\"Retrieves an account by its ID.\"\n    )\n    def get(self, request: Request, pk: int) -> Response:\n        try:\n            account = Account.objects.get(pk=pk)\n            serializer = AccountSerializer(account)",
         "detail": "accounts.views",
         "documentation": {}
     },
@@ -874,7 +899,7 @@
         "kind": 5,
         "importPath": "tasks.urls",
         "description": "tasks.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"tasks/\", views.TaskView.as_view()),  \n    path('tasks/import/', views.ImportTasksView.as_view(),),\n    path(\"tasks/<int:pk>/\", views.TaskUpdateDeleteView.as_view()),  \n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"tasks/\", views.TaskView.as_view()),  \n    path('tasks/import/', views.ImportTasksView.as_view()),\n    path(\"tasks/<int:pk>/\", views.TaskUpdateDeleteView.as_view()),  \n]",
         "detail": "tasks.urls",
         "documentation": {}
     },
